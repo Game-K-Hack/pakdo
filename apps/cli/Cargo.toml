@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 pakdo-core = { path = "../../core" }
+clap = { version = "4.4", features = ["derive"] }
