@@ -1,0 +1,151 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="uqH9b-rUgDH1SrmEEGxV">
+    <mxGraphModel dx="1417" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-3" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-5" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-13" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-19" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-31" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-32" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-33" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="pakdo" vertex="1">
+          <mxGeometry height="20" width="80" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-21" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-23" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="core" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-7" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-9" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-11" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="apps" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="cli" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="desktop" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="widget" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-16" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-17" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="bindings" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="python" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="js" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="docs" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-25" edge="1" parent="1" source="yeTns_Q04-E-jptz5Pi3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yeTns_Q04-E-jptz5Pi3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="src" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Cargo.toml" vertex="1">
+          <mxGeometry height="20" width="80" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="lib.rs" vertex="1">
+          <mxGeometry height="20" width="80" x="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value=".gitignore" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Cargo.toml" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="README.md" vertex="1">
+          <mxGeometry height="20" width="80" x="100" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Exclusions pour Git (fichiers compilés, temporaires)" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Configuration globale du projet (workspace Rust)" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Présentation du projet et de l&#39;utilisation" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Toutes la documentation" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Application widget pour linux (voir windows 7 pour la blague si possible)" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Application avec interface graphique" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Application en ligne de commande" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Les applications utilisateurs" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Lib JS avec NPM" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Lib Python avec PyPi" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Les wrappers pour chaque écosytème" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Dépendances et configuration du noyau" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Logique métier principale (bibliothèque réutilisable)" vertex="1">
+          <mxGeometry height="20" width="400" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="Code source du noyau" vertex="1">
+          <mxGeometry height="20" width="460" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#66B2FF;" value="La logique métier" vertex="1">
+          <mxGeometry height="20" width="520" x="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yeTns_Q04-E-jptz5Pi3-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=0;fontColor=#66B2FF;" value="Bah c&#39;est le repo complet" vertex="1">
+          <mxGeometry height="20" width="580" x="140" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
