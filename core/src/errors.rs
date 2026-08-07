@@ -4,6 +4,8 @@ use thiserror::Error;
 pub enum PakdoError {
     #[error("Unknown file extension for the file: {0}")]
     UnknownFileExtension(String),
+    #[error("Unknown library: {0}")]
+    UnknownLibrary(String),
     #[error("File not found: {0}")]
     FileNotFound(String),
     #[error("Failed to open file: {0}")]

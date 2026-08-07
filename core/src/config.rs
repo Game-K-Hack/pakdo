@@ -3,10 +3,13 @@ use crate::modules::image::Image;
 use phf::phf_map;
 use std::path::Path;
 
-pub static ROUTES: phf::Map<
-    &'static str,
-    fn(input_path: &Path, output_path: &Path) -> Result<(), Box<dyn std::error::Error>>,
-> = phf_map! {
+type ConvertFn = fn(&Path, &Path) -> Result<(), Box<dyn std::error::Error>>;
+
+pub static LIBRARY: phf::Map<&'static str, ConvertFn> = phf_map! {
+    "image" => Image::process,
+};
+
+pub static ROUTES: phf::Map<&'static str, ConvertFn> = phf_map! {
     "jpg>png" => Image::process,
     "png>jpg" => Image::process,
 };

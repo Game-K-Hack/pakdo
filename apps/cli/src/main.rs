@@ -1,24 +1,34 @@
 use clap::Parser;
+use pakdo_core::convert;
 use std::path::PathBuf;
 
 #[derive(Parser, Debug)]
-#[command(name = "pakdo", version = "1.0", about = "Convertisseur de fichiers optimisé et 100 % local")]
+#[command(name = "pakdo", version = "1.0", about = "Optimized, 100% local file converter")]
 struct Args {
-    /// Fichier d'entrée
+    /// Input file
     input: PathBuf,
 
-    /// Fichier de sortie
-    output: PathBuf,
+    /// Output file
+    output: Option<PathBuf>,
 
-    /// Librairie à utiliser pour la convertion
+    /// in ... format
+    #[arg(short, long)]
+    format: Option<String>,
+
+    /// Library to use for the conversion
     #[arg(short, long)]
     lib: Option<String>,
 }
 
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
 
-    println!("Fichier 1 : {:?}", args.input);
-    println!("Fichier 2 : {:?}", args.output);
-    println!("Lib : {:?}", args.lib);
+    convert(
+        &args.input,                  // Passé par référence (&PathBuf -> &Path)
+        args.output.as_deref(),      // Option<PathBuf> -> Option<&Path>
+        args.format.as_deref(), // Option<String>  -> Option<&str>
+        args.lib.as_deref()              // Option<String>  -> Option<&str>
+    )?;
+
+    Ok(())
 }
