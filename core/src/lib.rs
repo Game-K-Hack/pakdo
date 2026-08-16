@@ -75,3 +75,44 @@ fn get_conversion_string(input_path: &Path, output_path: &Path) -> Result<String
 
     Ok(format!("{input_file_extension}>{output_ext}"))
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::path::PathBuf;
+
+    fn fixture_path(name: &str) -> PathBuf {
+        Path::new(env!("CARGO_MANIFEST_DIR"))
+            .join("tests/fixtures")
+            .join(name)
+    }
+
+    #[test]
+    fn test_conversion_string_jpg_to_png() {
+        let result = get_conversion_string(
+            &fixture_path("image.jpg"),
+            Path::new("output.png"),
+        );
+        let conv_str = result.expect("should generate conversion string for jpg->png");
+        assert_eq!(conv_str, "jpg>png");
+    }
+
+    #[test]
+    fn test_conversion_string_png_to_jpg() {
+        let result = get_conversion_string(
+            &fixture_path("image.png"),
+            Path::new("output.jpg"),
+        );
+        let conv_str = result.expect("should generate conversion string for png->jpg");
+        assert_eq!(conv_str, "png>jpg");
+    }
+
+    #[test]
+    fn test_conversion_string_output_without_extension_returns_error() {
+        let result = get_conversion_string(
+            &fixture_path("image.jpg"),
+            Path::new("no_extension"),
+        );
+        assert!(matches!(result, Err(PakdoError::UnknownFileExtension(_))));
+    }
+}
