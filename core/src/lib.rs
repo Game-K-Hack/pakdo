@@ -59,7 +59,7 @@ fn convert_file(
 
         None => *ROUTES
             .get(conversion_string.as_str())
-            .ok_or_else(|| PakdoError::ExtensionNotSupported(conversion_string))?,
+            .ok_or(PakdoError::ExtensionNotSupported(conversion_string))?,
     };
 
     conversion_function(input_path, output_path)
@@ -89,30 +89,21 @@ mod tests {
 
     #[test]
     fn test_conversion_string_jpg_to_png() {
-        let result = get_conversion_string(
-            &fixture_path("image.jpg"),
-            Path::new("output.png"),
-        );
+        let result = get_conversion_string(&fixture_path("image.jpg"), Path::new("output.png"));
         let conv_str = result.expect("should generate conversion string for jpg->png");
         assert_eq!(conv_str, "jpg>png");
     }
 
     #[test]
     fn test_conversion_string_png_to_jpg() {
-        let result = get_conversion_string(
-            &fixture_path("image.png"),
-            Path::new("output.jpg"),
-        );
+        let result = get_conversion_string(&fixture_path("image.png"), Path::new("output.jpg"));
         let conv_str = result.expect("should generate conversion string for png->jpg");
         assert_eq!(conv_str, "png>jpg");
     }
 
     #[test]
     fn test_conversion_string_output_without_extension_returns_error() {
-        let result = get_conversion_string(
-            &fixture_path("image.jpg"),
-            Path::new("no_extension"),
-        );
+        let result = get_conversion_string(&fixture_path("image.jpg"), Path::new("no_extension"));
         assert!(matches!(result, Err(PakdoError::UnknownFileExtension(_))));
     }
 }
