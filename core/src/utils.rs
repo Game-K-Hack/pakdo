@@ -7,9 +7,9 @@ pub fn get_extension_from_file(path: &Path) -> Result<&str, PakdoError> {
         Ok(None) => Err(PakdoError::UnknownFileExtension(
             path.to_string_lossy().into_owned(),
         )),
-        Err(e) if e.kind() == std::io::ErrorKind::NotFound => {
-            Err(PakdoError::FileNotFound(path.to_string_lossy().into_owned()))
-        }
+        Err(e) if e.kind() == std::io::ErrorKind::NotFound => Err(PakdoError::FileNotFound(
+            path.to_string_lossy().into_owned(),
+        )),
         Err(e) => Err(PakdoError::FailedToOpenFile(
             path.to_string_lossy().into_owned(),
             e,

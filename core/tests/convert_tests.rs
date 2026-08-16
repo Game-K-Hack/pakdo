@@ -63,12 +63,7 @@ fn test_convert_output_file_with_extension_and_target_ext_returns_error() {
 fn test_convert_jpg_to_png_with_output_path() {
     let dir = TempDir::new().unwrap();
     let output = dir.path().join("out.png");
-    let result = convert(
-        &fixture_path("image.jpg"),
-        Some(&output),
-        None,
-        None,
-    );
+    let result = convert(&fixture_path("image.jpg"), Some(&output), None, None);
     result.expect("conversion jpg->png with output path should succeed");
     assert!(output.exists());
 }
