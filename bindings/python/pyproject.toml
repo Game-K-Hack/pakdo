@@ -1,0 +1,35 @@
+[build-system]
+requires = ["maturin>=1.8,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "pakdo"
+version = "0.1.0"
+description = "Optimized, 100% local file converter"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+]
+authors = [
+    { name = "Harlock", email = "hack.h@laposte.net" },
+    { name = "Mathieu Marthy", email = "mathieu.marthy@pm.me" }
+]
+dependencies = []
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-source = "python"
+module-name = "pakdo._native"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
+
+[project.urls]
+Homepage = "https://pakdo.org"
+Repository = "https://github.com/Game-K-Hack/pakdo.git"
+Issues = "https://github.com/Game-K-Hack/pakdo/issues"

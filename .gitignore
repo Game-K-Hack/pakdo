@@ -19,3 +19,16 @@ target/
 # End of https://www.toptal.com/developers/gitignore/api/rust
 
 .idea
+
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.venv/
+venv/
+.env/
+env/
+dist/
+uv.lock
