@@ -82,7 +82,7 @@ graph LR
 
 ## 3. Commit Conventions
 
-The monorepo strictly follows the [Conventional Commits](https://www.conventionalcommits.org/) specification. These messages enable automated tooling (`release-plz`) to compute SemVer version bumps and generate accurate changelogs.
+The monorepo strictly follows the [Conventional Commits](https://www.conventionalcommits.org/) specification. These messages enable automated tooling (`release-please`) to compute SemVer version bumps and generate accurate changelogs.
 
 ### Message Format
 
@@ -142,7 +142,7 @@ The Continuous Integration and Delivery workflow is automated via GitHub Actions
 ```mermaid
 graph TD
     A[Push / PR on master] --> B[1. CI Check: Lint, Test Rust & Python]
-    B -->|Merged to master| C[2. release-plz: Analyze commits]
+    B -->|Merged to master| C[2. release-please: Analyze commits]
     C -->|Feature or fix commits detected| D[Create / Update Release PR]
     D -->|Release PR merged by maintainer| E[Create Git Tag + GitHub Release]
     E -->|Tag pakdo-cli-v*| F[3. Build & Upload CLI Binary]
@@ -157,15 +157,15 @@ Runs on every `pull_request` and `push`:
 - Rust unit and integration tests (`cargo test --workspace`).
 - Python unit tests (`pytest tests -v` via `uv`).
 
-### 2. Release Automation (`release-plz.yml`)
+### 2. Release Automation (`release-please.yml`)
 
 Runs on push to `master`:
-1. **`release-pr` step**:
-   - Scans commits since the previous Git tag for each crate.
+1. **Release PR Creation**:
+   - Scans commits touching `core/`, `apps/cli/`, and `bindings/python/`.
    - Calculates the appropriate SemVer bump.
    - Updates `Cargo.toml` versions and `CHANGELOG.md` files for affected packages.
-   - Opens (or updates) a single combined Release Pull Request (e.g. *"chore: release pakdo-cli v0.1.1, pakdo-core v0.2.0"*).
-2. **`release` step** (after merging the Release PR):
+   - Opens (or updates) a single combined Release Pull Request.
+2. **Release Execution** (after merging the Release PR):
    - Generates the corresponding Git tags (`<package>-v<version>`).
    - Publishes GitHub Releases with release notes extracted from the changelog.
 
@@ -213,7 +213,7 @@ Standard development process for contributing new features or fixes:
    The `ci.yml` workflow automatically runs tests and linters.
 
 5. **Merge to `master`:**
-   Once merged, `release-plz` detects the `feat(core)` commit and opens a **Release PR** updating `pakdo-core`'s version and `CHANGELOG.md`.
+   Once merged, `release-please` detects the `feat(core)` commit and opens a **Release PR** updating `pakdo-core`'s version and `CHANGELOG.md`.
 
 6. **Publish:**
    When ready to release, simply merge the Release PR. Git tags and GitHub Releases are created automatically, triggering artifact compilation and deployment.
