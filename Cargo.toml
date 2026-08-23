@@ -3,4 +3,4 @@ members = ["apps/cli", "core", "bindings/python"]
 resolver = "2"
 
 [workspace.dependencies]
-pakdo-core = { path = "core", version = "0.1.0" }
+pakdo-core = { path = "core" }
