@@ -12,4 +12,8 @@ pub static LIBRARY: phf::Map<&'static str, ConvertFn> = phf_map! {
 pub static ROUTES: phf::Map<&'static str, ConvertFn> = phf_map! {
     "jpg>png" => Image::process,
     "png>jpg" => Image::process,
+    "webp>jpg" => Image::process,
+    "webp>png" => Image::process,
+    "png>webp" => Image::process,
+    "jpg>webp" => Image::process,
 };
