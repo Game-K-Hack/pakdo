@@ -1,4 +1,4 @@
-"""Pakdo - optimized, 100% local file converter."""
+from importlib.metadata import version
 
 from pakdo._native import (
     convert,
@@ -21,4 +21,4 @@ __all__ = [
     "UnknownLibraryError",
     "ExtensionNotSupportedError",
 ]
-__version__ = "0.1.0"
+__version__ = version("pakdo")

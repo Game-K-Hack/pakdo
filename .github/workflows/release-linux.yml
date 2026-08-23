@@ -14,6 +14,7 @@ jobs:
 
   build-cli:
     name: Build pakdo-cli (Linux x86_64)
+    if: startsWith(github.event.release.tag_name, 'pakdo-cli-')
     needs: ci
     runs-on: self-hosted
     permissions:

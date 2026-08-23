@@ -2,6 +2,7 @@
 name = "pakdo-core"
 version = "0.1.0"
 edition = "2024"
+publish = false
 
 [dependencies]
 phf = { version = "0.14", features = ["macros"] }

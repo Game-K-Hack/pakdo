@@ -93,6 +93,7 @@ fn convert(
 #[pymodule]
 fn _native(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(convert, m)?)?;
+    m.add("__version__", env!("CARGO_PKG_VERSION"))?;
 
     // Register exception types so users can catch them
     m.add("PakdoBaseError", m.py().get_type::<PakdoBaseError>())?;

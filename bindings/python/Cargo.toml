@@ -2,11 +2,12 @@
 name = "pakdo-python"
 version = "0.1.0"
 edition = "2024"
+publish = false
 
 [lib]
 name = "_native"
 crate-type = ["cdylib"]
 
 [dependencies]
-pakdo-core = { path = "../../core" }
+pakdo-core = { path = "../../core", version = "0.1.0" }
 pyo3 = { version = "0.29.2", features = ["extension-module"] }
